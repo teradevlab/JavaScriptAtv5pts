@@ -1,8 +1,11 @@
 let receita = {
+
     id: "99",
     nome: "Super Feijoada",
     porcoes: 50, 
     Ingredientes: [
+        "Super Feijoada",
+        "",
         "1 orelha de porco cortada em pedaços pequenos",
         "2 pés de porco cortados em pedaços pequenos",
         "1/2 kg de carne-seca cortada em pedaços pequenos",
@@ -18,18 +21,21 @@ let receita = {
         "2 litros de água fervente", 
         ]
     }
-    console.log(receita.Ingredientes[0]);
-    console.log(receita.Ingredientes[1]);
-    console.log(receita.Ingredientes[2]);
-    console.log(receita.Ingredientes[3]);
-    console.log(receita.Ingredientes[4]);
-    console.log(receita.Ingredientes[5]);
-    console.log(receita.Ingredientes[6]);
-    console.log(receita.Ingredientes[7]);
-    console.log(receita.Ingredientes[8]);
-    console.log(receita.Ingredientes[9]);
-    console.log(receita.Ingredientes[10]);
-    console.log(receita.Ingredientes[11]);
-    console.log(receita.Ingredientes[12]);
-    
+    {
+        console.log(receita.Ingredientes[0]);
+        console.log(receita.Ingredientes[1]);
+        console.log(receita.Ingredientes[2]);
+        console.log(receita.Ingredientes[3]);
+        console.log(receita.Ingredientes[4]);
+        console.log(receita.Ingredientes[5]);
+        console.log(receita.Ingredientes[6]);
+        console.log(receita.Ingredientes[7]);
+        console.log(receita.Ingredientes[8]);
+        console.log(receita.Ingredientes[9]);
+        console.log(receita.Ingredientes[10]);
+        console.log(receita.Ingredientes[11]);
+        console.log(receita.Ingredientes[12]); 
+        console.log(receita.Ingredientes[13]); 
+        console.log(receita.Ingredientes[14]);     
 
+}
