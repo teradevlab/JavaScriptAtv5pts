@@ -1,7 +1,7 @@
 let receita = {
     id: "99",
     nome: "Super Feijoada",
-    porcoes: 50, 
+    porcoes: 50,
     Ingredientes: [
         "1 orelha de porco cortada em pedaços pequenos",
         "2 pés de porco cortados em pedaços pequenos",
@@ -15,9 +15,11 @@ let receita = {
         "400 grama de lombo de porco sem osso cortado em cubos",
         "1 laranja média sem casca",
         "2 Cubos de Caldo de Bacon Arisco",
-        "2 litros de água fervente", 
-        ]
-    }
+        "2 litros de água fervente",
+    ]
+}
+
+{
     console.log(receita.Ingredientes[0]);
     console.log(receita.Ingredientes[1]);
     console.log(receita.Ingredientes[2]);
@@ -31,5 +33,5 @@ let receita = {
     console.log(receita.Ingredientes[10]);
     console.log(receita.Ingredientes[11]);
     console.log(receita.Ingredientes[12]);
-    
 
+}
